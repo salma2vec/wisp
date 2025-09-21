@@ -9,13 +9,6 @@ A tiny LLM inference engine with just‑enough features to learn, extend, and sh
 - HF model loader + optional `torch.compile`
 - Top‑k/ top‑p/ temperature/ repetition penalty
 
-## Quickstart
-```bash
-pip install -e .
-python examples/serve.py  # starts FastAPI on :8000
-curl -X POST localhost:8000/generate -H 'Content-Type: application/json'   -d '{"prompts":["hello"],"params":{"max_tokens":16}}'
-```
-
 ## Design
 The core loop is in `engine.py` so you can reason about latency, batching, and cache.
 
