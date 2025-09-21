@@ -17,7 +17,7 @@ curl -X POST localhost:8000/generate -H 'Content-Type: application/json'   -d '{
 ```
 
 ## Design
-*Small but honest.* The core loop is in `engine.py` so you can reason about latency, batching, and cache.
+The core loop is in `engine.py` so you can reason about latency, batching, and cache.
 
 ## Roadmap
 - [ ] True paged KV across sequences
