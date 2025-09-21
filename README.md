@@ -1,6 +1,6 @@
-# Wisp — a smol‑vLLM you can hack on
+# Wisp 
 
-**Wisp** is a tiny LLM inference engine with just‑enough features to learn, extend, and ship:
+A tiny LLM inference engine with just‑enough features to learn, extend, and ship:
 
 - Batched prefill/ decode loop
 - Paged KV cache (teaching‑grade)
