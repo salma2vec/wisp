@@ -1,0 +1,17 @@
+[project]
+name = "wisp"
+version = "0.1.0"
+description = "A tiny, pragmatic LLM inference engine with batched prefill/decode and paged KV cache."
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.2",
+  "transformers>=4.40",
+  "fastapi",
+  "uvicorn",
+  "pydantic>=2",
+  "numpy",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
